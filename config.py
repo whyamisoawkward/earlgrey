@@ -1,3 +1,15 @@
+#!/usr/bin/env python
+"""config.py: this python script alters the configure file based off user input both from scans and entered data"""
+
+__author__      = "Robert Moser"
+__copyright__ = "Copyright 2023  Robert Moser"
+__credits__ = ["myslef for now"]
+__license__ = "GPL"
+__version__ = "0.0.0"
+__maintainer__ = "Robert Moser"
+__email__ = "whyamisoawkward2021@gmail.com"
+__status__ = "prototype"
+
 from logging import NullHandler
 import gi
 gi.require_version("Gtk", "3.0")
